@@ -16,9 +16,11 @@
     text-align: justify;
 }
 
+/* Srodkowa czesc na stronie, taki kontener pomiedzy glowa a stopka */
 .middle {
     display: block;    
     }
+    /* wiersz zawierajacy karty, trzy lub mniej w zaleznosc od szerokosci ekranu uzytkownika */
 .middle-row {
     display: flex;
     flex-wrap: wrap;
@@ -27,6 +29,7 @@
     column-gap: 30px;
 }
 
+/* style dla kart */
 .card-project {
     margin: 10px 0 10px 0;
     min-height: 30vh;
@@ -34,6 +37,7 @@
   background-size: 100.00px 100.00px; */
 }
 
+/* wewnetrzne style dla karty */
 .card-info {
     min-height: 200px;
     min-width: 20rem;
@@ -45,6 +49,7 @@
     text-align: justify;
 }
 
+/* czesc nad glownym tytulem, tlo szare litery blade */
 .card-upper {
     background-color: #ededed;
     text-align: end;
@@ -53,7 +58,6 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-
 .card-upper-text {
     color: rgb(208, 208, 208);
     font-family: Arial, Helvetica, sans-serif;
@@ -71,6 +75,7 @@
     padding: 10px 0 10px 0;
 }
 
+/* tlo dla niektorych napisow, taki prostokacik pod napisami z zaokraglonymi rogami */
 .badge {
     border-radius: 5px;
     background-color: #5b5a5a;
@@ -79,6 +84,7 @@
     color: white;
 }
 
+/* czesc srodkowa kart */
 .card-body {
     display: flex;
     flex-wrap: wrap;
@@ -86,6 +92,7 @@
     margin: 10px;
     border-radius: 7px;    
 }
+/* czesc srodkowa jednej tylko karty dotyczacej serwera */
 .card-info-serwer {
     min-height: 100px;
     min-width: 300px;
@@ -106,6 +113,7 @@
     background-size: 56.57px 56.57px;
 }
 
+/* stopka strony */
 .bottom {
     min-height: 100px;
     margin: 10px 10px 10px 10px;
@@ -116,7 +124,7 @@
     text-align: justify;
 }
 
-/* COOKIES */
+/* COOKIES container - style dla cookies */
 .cookies-container {
     display: block;
     position: fixed;
