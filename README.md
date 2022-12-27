@@ -1,6 +1,6 @@
 # gitPab
 
-Projekt Zaangazowanych Stzdentów WSB-NLU
+Projekt Zaangazowanych Studentów WSB-NLU
 
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
